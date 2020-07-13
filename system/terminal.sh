@@ -31,3 +31,9 @@ function backup_terminal_preferences {
   print_completion
 }
 
+# Reset GNOME terminal settings
+function reset_terminal_preferences {
+  print_heading "Resetting GNOME Terminal preferences"
+  dconf reset -f /org/gnome/terminal/
+  print_completion
+}
