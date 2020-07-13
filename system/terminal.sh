@@ -42,6 +42,6 @@ function reset_terminal_preferences {
 # Load GNOME terminal settings
 function load_terminal_preferences {
   print_heading "Loading GNOME terminal preferences"
-  dconf load /org/gnome/terminal/ < ~/gnome_terminal_settings_backup.txt
+  dconf load /org/gnome/terminal/ < backup/gnome_terminal_settings_backup.txt
   print_completion
 }
