@@ -37,3 +37,10 @@ function reset_terminal_preferences {
   dconf reset -f /org/gnome/terminal/
   print_completion
 }
+
+# Load GNOME terminal settings
+function load_terminal_preferences {
+  print_heading "Loading GNOME terminal preferences"
+  dconf load /org/gnome/terminal/ < ~/gnome_terminal_settings_backup.txt
+  print_completion
+}
