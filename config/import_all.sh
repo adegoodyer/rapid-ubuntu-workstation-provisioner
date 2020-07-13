@@ -11,6 +11,7 @@
 . dev/code_editors.sh
 
 # DevOps
+. devops/command_line_tools.sh
 . devops/configuration_management.sh
 . devops/containers.sh
 . devops/infrastructure_as_code.sh
