@@ -9,5 +9,5 @@
 function install_shellcheck {
     print_heading "Installing ShellCheck"
     sudo apt install shellcheck -y
-    print_confirmation
+    print_completion
 }
