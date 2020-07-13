@@ -14,6 +14,8 @@ A collection of installation scripts that automate the setup of a Ubuntu worksta
 
 5. Execute installation `./example-install.sh`
 
+> Use `test.sh` to experiment with as it is in the .gitignore file and won't be saved to source
+
 #### Adding additional folders and/or scripts
 
 >When adding additional folders or installation scrips, don't forget to add to `config/import_all.sh` to make your functions accessible globally
