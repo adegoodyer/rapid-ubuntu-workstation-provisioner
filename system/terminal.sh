@@ -26,8 +26,9 @@ function install_byobu {
 # Backup GNOME terminal settings
 function backup_terminal_preferences {
   print_heading "Backing up GNOME Terminal preferences"
-  dconf dump /org/gnome/terminal/ > ~/gnome_terminal_settings_backup.txt
-  print_info "Backed up to ~/gnome_terminal_settings_backup.txt"
+  dconf dump /org/gnome/terminal/ > backup/gnome_terminal_settings_backup.txt
+  print_info "Backed up to backup/gnome_terminal_settings_backup.txt"
+  print_info "Don't forget to commit changes to version control"
   print_completion
 }
 
