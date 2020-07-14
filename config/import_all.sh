@@ -9,13 +9,13 @@
 
 # Software Development
 . dev/code_editors.sh
+. dev/version_control.sh
 
 # DevOps
 . devops/command_line_tools.sh
 . devops/configuration_management.sh
 . devops/containers.sh
 . devops/infrastructure_as_code.sh
-. devops/version_control.sh
 
 # Helpers
 . helpers/apt_shortcuts.sh
