@@ -19,3 +19,19 @@ install_vs_code
 
 # Step 4 - Teardown
 system_cleanup
+
+# Additional Manual Steps
+# https://www.tecmint.com/things-to-do-after-installing-ubuntu-20-04/
+
+# Enable LivePatch
+# Launch Chrome and login to sync bookmarks and passwords
+# Sign in Snaps store
+# Connect to online accounts (Settings > Online Accounts)
+    # Ubuntu SSO
+    # Google
+# Set default applications (Settings > Default Applications)
+# Enable additional drivers
+# Add favourite apps to dock
+    # Chrome
+    # BitWarden
+    # VS Code
