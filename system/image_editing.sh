@@ -8,6 +8,6 @@
 # Install GIMP Image Editor
 function install_gimp {
     print_heading "Installing GIMP Image Editor"
-    sudo apt install gimp
+    sudo apt install gimp -y
     print_completion
 }
