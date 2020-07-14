@@ -15,6 +15,7 @@
 . devops/configuration_management.sh
 . devops/containers.sh
 . devops/infrastructure_as_code.sh
+. devops/version_control.sh
 
 # Helpers
 . helpers/apt_shortcuts.sh
