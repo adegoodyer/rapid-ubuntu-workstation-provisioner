@@ -16,3 +16,10 @@ function install_vs_code {
   
   print_error
 }
+
+# Install Visual Studio Code Extensions
+function install_vs_code_extensions {
+  print_heading "Installing VS Code Extensions"
+  code --install-extension streetsidesoftware.code-spell-checker
+  print_confirmation
+}
