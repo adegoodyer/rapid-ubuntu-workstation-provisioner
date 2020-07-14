@@ -39,24 +39,21 @@ git config --global user.email "adriangoodyer@gmail.com" &&
 git config --global user.name "adegoodyer"
 ```
 
-### 3. Clone Github repo
+### 3. Clone Github repo (using https and password for now)
 ```
 git clone https://github.com/adegoodyer/workstation-setup.git &&
 cd workstation-setup/
 ```
 
-### 4. Don't forget additional manual setup steps..
+### 4. Make install script executable
+```
+sudo chmod +x example-install.sh
+```
 
-https://www.tecmint.com/things-to-do-after-installing-ubuntu-20-04/
+### 5. Execute script to run installer
+```
+sudo ./example-unstall.sh
+```
 
-- Enable LivePatch
-- Launch Chrome and login to sync bookmarks and passwords
-- Sign in Snaps store
-- Connect to online accounts (Settings > Online Accounts)
-    - Ubuntu SSO
-    - Google
-- Set default applications (Settings > Default Applications)
-- Enable additional drivers
-- Add favourite apps to dock
-    - Chrome
-    - BitWarden
+
+
