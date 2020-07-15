@@ -47,7 +47,7 @@ function print_info {
 # Print User Prompt
 function print_user_prompt {
 	echo
-	echo -e "${YELLOW}Add key to GitHub account: https://docs.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account"
+	echo -e "${YELLOW}$1"
     echo 
     echo -e "${YELLOW}Press any key to Continue..${NC}"
     read
