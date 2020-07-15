@@ -25,6 +25,7 @@
 . system/audio_video.sh
 . system/browser.sh
 . system/image_editing.sh
+. system/phone.sh
 . system/security.sh
 . system/terminal.sh
 . system/utilities.sh
