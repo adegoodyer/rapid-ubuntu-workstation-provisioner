@@ -1,5 +1,5 @@
 #!/bin/bash
-. config/import_all.sh
+source config/import_all.sh
 
 # Author:           Ade Goodyer
 # Created:          12/07/2020
