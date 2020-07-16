@@ -7,6 +7,9 @@
 # Variables
 . config/variables.sh
 
+# Aliases
+. config/aliases.sh
+
 # Software Development
 . dev/code_editors.sh
 . dev/version_control.sh
@@ -19,6 +22,7 @@
 
 # Helpers
 . helpers/apt_shortcuts.sh
+. helpers/essential_functions.sh
 . helpers/terminal_outputs.sh
 
 # System
