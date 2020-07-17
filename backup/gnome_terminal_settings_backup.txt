@@ -1,6 +1,6 @@
 [legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]
 background-color='rgb(46,52,54)'
-background-transparency-percent=41
+background-transparency-percent=10
 cursor-blink-mode='system'
 cursor-shape='ibeam'
 default-size-columns=145
