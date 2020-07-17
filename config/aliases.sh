@@ -1,5 +1,4 @@
 #!/bin/bash
-IFS=$'\n'
 
 # Author:           Ade Goodyer
 # Created:          15/07/2020
