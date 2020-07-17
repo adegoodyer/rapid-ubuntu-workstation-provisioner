@@ -20,6 +20,8 @@ function install_vs_code {
 # Install Visual Studio Code Extensions
 function install_vs_code_extensions {
   print_heading "Installing VS Code Extensions"
+
   code --install-extension streetsidesoftware.code-spell-checker
+  code --install-extension hashicorp.terraform
   print_confirmation
 }
