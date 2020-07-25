@@ -23,5 +23,6 @@ function install_vs_code_extensions {
 
   code --install-extension streetsidesoftware.code-spell-checker
   code --install-extension hashicorp.terraform
+  code -- install-extension ms-python.python
   print_confirmation
 }
