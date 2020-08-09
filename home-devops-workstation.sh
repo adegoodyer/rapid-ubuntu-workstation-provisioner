@@ -40,5 +40,8 @@ install_ansible
 install docker
 install_terraform
 
+# Security
+enable_firewall
+
 # Clean system before finishing
 system_cleanup

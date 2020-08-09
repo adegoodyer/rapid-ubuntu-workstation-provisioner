@@ -25,3 +25,10 @@ function install_vault {
   vault --version
   print_completion
 }
+
+# Enable firewall
+function enable_firewall {
+  print_heading "Enabling Firewall"
+  sudo ufw enable
+  print_completion
+}
