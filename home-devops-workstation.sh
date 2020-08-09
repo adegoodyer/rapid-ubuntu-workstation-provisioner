@@ -21,7 +21,7 @@ backup_ssh_id_rsa
 
 # System basics
 install_media_codecs
-install_chrome
+install_chromium
 remove_firefox
 install_archive_utilities
 

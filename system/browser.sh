@@ -13,6 +13,13 @@ function install_chrome {
     print_completion
 }
 
+# Install Chromium
+function install_chromium {
+    print_heading "Installing Chromium"
+    sudo apt install chromium-browser -y
+    print_completion
+}
+
 # Remove Firefox
 function remove_firefox {
     print_heading "Removing Firefox"
